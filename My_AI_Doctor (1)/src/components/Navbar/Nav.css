@@ -1,0 +1,39 @@
+/* Global reset */
+* {
+    margin: 0px;
+    padding: 0px;
+  }
+  
+  .navbar-nav{
+    padding: 5px 20px;
+  }
+  .navbar-nav .nav-link{
+    color:#0c6584 !important;
+  }
+  /* Style for active link in navbar */
+  .navbar-nav .nav-link.active {
+    color: green !important; /* Force the color to apply */
+    border-radius: 20px !important;
+  }
+  
+  /* Style for hover state */
+  .navbar-nav .nav-link:hover {
+    background: rgb(231, 230, 230) !important;
+    border-radius: 20px !important;
+  }
+  
+  .login-btn{
+    background: #0c6584;
+    text-decoration: none;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+  }
+  /* Hover effect for buttons */
+  .login-btn:hover {
+    background: white;   
+    color: #0c6584;
+    border:2px solid #0c6584;
+  }
+  

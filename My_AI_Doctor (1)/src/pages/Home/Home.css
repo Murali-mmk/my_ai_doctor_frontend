@@ -1,0 +1,53 @@
+.hero-section h1 {
+    font-size: 3rem;
+    animation: fadeIn 2s ease-in-out;
+  }
+  
+  .image-section img {
+    transition: transform 0.3s ease;
+  }
+  
+  .image-section img:hover {
+    transform: scale(1.05);
+  }
+  
+  .hero-btn1{
+    background: #0c6584;
+    /* border: none; */
+    border-color: white;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 10px;
+  }
+  .hero-btn1:hover{
+    background-color: white;
+  color: #0c6584;
+  border: 2px solid #0c6584;
+
+  
+  }
+  
+  .hero-btn2{
+  background-color: white;
+  color: #0c6584;
+  border: 2px solid #0c6584;
+  border-radius: 10px;
+    
+  }
+  .hero-btn2:hover{
+    background: #0c6584;
+    color: white;
+    border-color: white;
+  }
+  
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  

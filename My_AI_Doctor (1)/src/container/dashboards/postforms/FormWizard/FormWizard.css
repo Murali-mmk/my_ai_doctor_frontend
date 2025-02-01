@@ -1,0 +1,97 @@
+/* src/pages/PaymentPage.css */
+
+/* Container for the entire payment page */
+.payment-page-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f7fa;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Header styling */
+.payment-page-header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.payment-page-header h2 {
+  font-size: 2rem;
+  color: #4caf50;
+}
+
+.payment-page-header p {
+  font-size: 1rem;
+  color: #777;
+}
+
+/* Payment details section */
+.payment-details {
+  width: 60%;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.payment-info {
+  margin-bottom: 20px;
+}
+
+.payment-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #4caf50;
+}
+
+.payment-info p {
+  font-size: 1rem;
+  color: #555;
+}
+
+/* Payment method form styling */
+.payment-method {
+  margin-top: 20px;
+}
+
+.payment-method h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+  color: #4caf50;
+}
+
+.payment-method label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1rem;
+  color: #777;
+}
+
+.payment-method input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+.payment-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: #fff;
+  font-size: 1.1rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.payment-button:hover {
+  background-color: #45a049;
+}
