@@ -13,7 +13,7 @@ import face15 from "../../../../assets/images/faces/15.jpg";
 import face16 from "../../../../assets/images/faces/16.jpg";
 
 import bitcoin from "../../../../assets/images/crypto-currencies/regular/Bitcoin.svg";
-import litecoin from "../../../../assets/images/crypto-currencies/regular/Litecoin.svg";
+// import litecoin from "../../../../assets/images/crypto-currencies/regular/Litecoin.svg";
 import ethereum from "../../../../assets/images/crypto-currencies/regular/Ethereum.svg";
 import dash from "../../../../assets/images/crypto-currencies/regular/Dash.svg";
 import ripple from "../../../../assets/images/crypto-currencies/regular/Ripple.svg";
@@ -128,7 +128,7 @@ export const Historydata = [
   { id: 3, src1: face12, src2: euro, class: 'up', color1: 'success', name: 'Brian Jhonson', cell: '1242232403', coin: 'Euro', date: '14,Aug 2023 - 10:25AM', amount: '	+0.943', text1: 'Melissa Smith', text2: 'Success', color2: 'success' },
   { id: 4, src1: face15, src2: ethereum, class: 'up', color1: 'success', name: 'Liam Anderson', cell: '1242232404', coin: 'Etherium', date: '10,Jul 2023 - 4:14PM', amount: '+0.582', text1: 'Alexander Clark', text2: 'Failed', color2: 'danger' },
   { id: 5, src1: face4, src2: golem, class: 'up', color1: 'success', name: 'Isabella Brown', cell: '1242232405', coin: 'Golem', date: '19,Aug 2023 - 11:35AM', amount: '+0.290', text1: 'Elijah Davis', text2: 'Success', color2: 'success' },
-  { id: 6, src1: face7, src2: litecoin, class: 'down', color1: 'danger', name: 'Sophia Lee', cell: '1242232406', coin: 'Litecoin', date: '12,Jun 2023 - 2:45PM', amount: '-0.147', text1: 'Harper Taylor', text2: 'Success', color2: 'success' },
+  { id: 6, src1: face7, src2: golem, class: 'down', color1: 'danger', name: 'Sophia Lee', cell: '1242232406', coin: 'golem', date: '12,Jun 2023 - 2:45PM', amount: '-0.147', text1: 'Harper Taylor', text2: 'Success', color2: 'success' },
   { id: 7, src1: face6, src2: ripple, class: 'up', color1: 'success', name: 'Evelyn Clark', cell: '1242232407', coin: 'Ripple', date: '27,Jul 2023 - 10:18AM', amount: '+1.05', text1: 'William Brown', text2: 'Success', color2: 'success' },
   { id: 8, src1: face11, src2: monero, class: 'up', color1: 'success', name: 'Liam Anderson', cell: '1242232408', coin: 'Monero', date: '16,Aug 2023 - 9:25PM', amount: '+0.625', text1: 'Amelia Davis', text2: 'Inprogress', color2: 'info' },
   { id: 9, src1: face2, src2: zcash, class: 'down', color1: 'danger', name: 'Harper Taylor', cell: '1242232409', coin: 'Zcash', date: '24,Jul 2023 - 12:47PM', amount: '-0.293', text1: 'Benjamin Martinez', text2: 'Inprogress', color2: 'info' },
