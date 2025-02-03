@@ -25,7 +25,7 @@ import DoctorDetails from './container/dashboards/Doctor_Details/Doctor_details.
 import DoctorsList from './container/dashboards/DoctorsList/DoctorList.jsx';
 import BookAppointments from './container/dashboards/BookAppointments/BookAppointments.jsx';
 import Appointments from './container/dashboards/Appointments/Appointments.jsx';
-// import Appointmentdetails from './container/dashboards/AppointmentDetails/AppointmentDetails.jsx';
+import Appointmentdetails from './container/dashboards/AppointmentDetails/AppointmentDetails.jsx';
 import FormWizard from './container/dashboards/FormWizard/FormWizard.jsx';
 // import PatientPostAppointments from './container/dashboards/PatientAppointments/PatientPostAppointments.jsx';
 // import PatientPostBilling from './container/dashboards/PatientBilling/PatientPostBilling.jsx';
@@ -240,7 +240,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path={`${import.meta.env.BASE_URL}dashboards/doctordetails/:doctorId`} element={<DoctorDetails />} />
           <Route path={`${import.meta.env.BASE_URL}dashboards/bookappointments`} element={<BookAppointments />} />
           <Route path={`${import.meta.env.BASE_URL}dashboards/appointments`} element={<Appointments />} />
-          {/* <Route path={`${import.meta.env.BASE_URL}dashboards/appointment-details`} element={<Appointmentdetails />} /> */}
+          <Route path={`${import.meta.env.BASE_URL}dashboards/appointment-details`} element={<Appointmentdetails />} /> 
           <Route path={`${import.meta.env.BASE_URL}dashboards/forms`} element={<FormWizard />} />
 
           {/* <Route
