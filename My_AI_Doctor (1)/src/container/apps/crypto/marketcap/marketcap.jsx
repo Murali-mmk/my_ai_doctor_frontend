@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import bitcoin from "../../../../assets/images/crypto-currencies/regular/Bitcoin.svg";
 import bitcoinsq from "../../../../assets/images/crypto-currencies/square-color/Bitcoin.svg";
 import litecoin from "../../../../assets/images/crypto-currencies/square-color/Litecoin.svg";
-import litecoinr from "../../../../assets/images/crypto-currencies/regular/Litecoin.svg";
+// import litecoinr from "../../../../assets/images/crypto-currencies/regular/Litecoin.svg";
 import ethereum from "../../../../assets/images/crypto-currencies/square-color/Ethereum.svg";
 import ethereumr from "../../../../assets/images/crypto-currencies/regular/Ethereum.svg";
 import dash from "../../../../assets/images/crypto-currencies/square-color/Dash.svg";
@@ -222,7 +222,7 @@ const Marketcap= () => {
                                         <div className="d-flex align-items-center gap-2">
                                             <div>
                                                 <span className="avatar avatar-sm p-1 bg-light">
-                                                    <img src={litecoinr} alt="" />
+                                                    <img src={""} alt="litecoin" />
                                                 </span>
                                             </div>
                                             <div>

@@ -180,7 +180,7 @@ import Leads from './container/apps/crm/leads/leads.jsx';
 import Transactions from './container/apps/crypto/transactions/transactions.jsx';
 import Currencyexchange from './container/apps/crypto/currencyexchange/currencyexchange.jsx';
 import Buysell from './container/apps/crypto/buysell/buysell.jsx';
-import Marketcap from './container/apps/crypto/marketcap/marketcap.jsx';
+// import Marketcap from './container/apps/crypto/marketcap/marketcap.jsx';
 import Wallet from './container/apps/crypto/wallet/wallet.jsx';
 import Tables from './container/tables/tables/tables.jsx';
 import Gridjstables from './container/tables/gridjstables/gridjstables.jsx';
@@ -440,7 +440,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
           <Route path={`${import.meta.env.BASE_URL}apps/crypto/transactions`} element={<Transactions/>} />
           <Route path={`${import.meta.env.BASE_URL}apps/crypto/currencyexchange`} element={<Currencyexchange  />} />
           <Route path={`${import.meta.env.BASE_URL}apps/crypto/buysell`} element={<Buysell/>} />
-          <Route path={`${import.meta.env.BASE_URL}apps/crypto/marketcap`} element={<Marketcap/>} />
+          {/* <Route path={`${import.meta.env.BASE_URL}apps/crypto/marketcap`} element={<Marketcap/>} /> */}
           <Route path={`${import.meta.env.BASE_URL}apps/crypto/wallet`} element={<Wallet/>} />
 
           <Route path={`${import.meta.env.BASE_URL}tables/tables`} element={<Tables/>} />
