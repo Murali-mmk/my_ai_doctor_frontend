@@ -25,7 +25,7 @@ import DoctorDetails from './container/dashboards/Doctor_Details/Doctor_details.
 import DoctorsList from './container/dashboards/DoctorsList/DoctorList.jsx';
 import BookAppointments from './container/dashboards/BookAppointments/BookAppointments.jsx';
 import Appointments from './container/dashboards/Appointments/Appointments.jsx';
-import Appointmentdetails from './container/dashboards/AppointmentDetails/AppointmentDetails.jsx';
+import Appointmentdetails from './container/dashboards/AppointmentDetails/Appointmentdetails.jsx';
 import FormWizard from './container/dashboards/FormWizard/FormWizard.jsx';
 // import PatientPostAppointments from './container/dashboards/PatientAppointments/PatientPostAppointments.jsx';
 // import PatientPostBilling from './container/dashboards/PatientBilling/PatientPostBilling.jsx';
